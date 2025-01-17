@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+/* Intro Section */
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Domains Section */
+.domains h3 {
+    color: #007BFF;
+}
+
+.domains ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.domains ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Core Components Section */
+.details {
+    margin-top: 20px;
+}
+
+.subfield {
+    margin-bottom: 20px;
+}
+
+.subfield h4 {
+    color: #28a745;
+}
+
+.subfield p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Roles Section */
+.roles {
+    margin-top: 30px;
+}
+
+.roles h3 {
+    color: #007BFF;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.block h4 {
+    color: #dc3545;
+}
+
+.block p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Link Section */
+a {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    color: #007BFF;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+}
